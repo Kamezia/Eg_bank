@@ -1,11 +1,8 @@
-from django.shortcuts import render
-# from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ModelViewSet
 from .models import Currency, Category, Transaction
 from .serializers import CurrencySerializer, CategorySerializer, WriteTransactionSerializer, ReadTransactionSerializer
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework.permissions import IsAuthenticated, AllowAny, IsAuthenticatedOrReadOnly, DjangoModelPermissions
 from .permissions import IsAdminOrReadOnly, AllowlistPermission
 
 class CurrencyModelViewSet(ModelViewSet):
