@@ -195,7 +195,4 @@ To get a list of all currencies, enter the following URL:
 Select the **GET** method and click **Send**.
 
 You should see a list of all currencies in the response.
-
-![List of all currencies](./"C:\Users\HP\Downloads\List Currencies.png")
-
 ---
