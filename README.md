@@ -188,7 +188,7 @@ In Postman, create a new request.
 
 ### Step 3: Enter the URL
 
-To get a list of all currencies, enter the following URL:
+To get a list of all currencies, enter the following URL: http://127.0.0.1:8000/api/currencies/
 
 ### Step 4: Send the Request
 
